@@ -1,0 +1,29 @@
+# ADR-20250921: Processo de Seleção de Terrenos
+
+- **Data**: 2025-09-21
+- **Status**: Aceita
+- **Owners**: @neguices, @carol
+
+## Contexto
+Temos vários lotes em análise (Ibitirama, Tangará, Pinhal, Amantikir).  
+Precisamos organizar critérios e agenda de visitas para tomada de decisão informada.
+
+## Opções consideradas
+1. Seguir escolhendo terrenos de forma ad hoc via WhatsApp
+2. Centralizar dados em planilha única, aplicar critérios, registrar ideias em whiteboard
+3. Já migrar tudo para Supabase com app web
+
+## Decisão
+Optamos pela opção **2**:  
+- [📊 Planilha de terrenos no Google Sheets](https://docs.google.com/spreadsheets/d/1J6MiwaA-PJp260OCj7IkxI0NWnnOwU5BQeIafjabhrI/edit?gid=0#gid=0)  
+- [📝 Whiteboard de ideias no Canva](https://www.canva.com/design/DAGzoQo24Ds/MYDOEFt5WeFkh5vuMsJucg/edit)  
+Com migração futura para Supabase quando o processo estiver validado.
+
+## Consequências
+- **Positivas**: simplicidade, baixo custo, agilidade
+- **Negativas**: duplicidade de dados possível; menos automação no curto prazo
+
+## Próximos passos
+- Preencher a planilha `Links Terrenos`
+- Marcar visitas em 04 e 05/10
+- Usar o whiteboard para registrar insights soltos
